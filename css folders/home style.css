@@ -1,0 +1,58 @@
+
+body {background-color : rosybrown;}
+body {text-align: center;}
+
+ul {
+    padding:40px ;
+}
+li {
+    display: inline-block;
+    padding-left:20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(212, 143, 181);
+
+}
+div#a {
+    background-color: rgb(179, 146, 202);
+    text-decoration: underline;
+
+}
+h2{
+    color: rgb(105, 6, 52);
+    font-size: 30px;
+    text-decoration: underline;
+}
+p{
+    color: rgb(177, 10, 60);
+    font-size: 25px;
+}
+li::first-letter{
+text-transform: uppercase;
+color: rgba(230, 8, 119, 0.89);
+}
+:link{
+    color: rgb(187, 104, 104) ;
+}
+:visited{
+    color: purple ;
+}
+:hover{
+    color: lightblue ;
+}
+:active{
+    color: khaki ;
+}
+footer{
+    font-size: 25px;
+    color: rgb(105, 6, 52);
+}
+footer{
+    border: 20px dotted;
+}
+button{
+    box-sizing: border-box;
+    color: brown;
+    border:rgb(187, 104, 104);
+    font-size: 20px;
+}
